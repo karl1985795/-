@@ -16,7 +16,6 @@ export const Header: React.FC<HeaderProps> = ({ latestResult, onHomeClick, onHis
   const iconClass = "w-5 h-5 mb-0.5 group-hover:-translate-y-0.5 transition-transform duration-300";
   const textClass = "text-[10px] font-medium";
 
-  // System Date State
   const [currentDate, setCurrentDate] = useState(new Date());
 
   useEffect(() => {
